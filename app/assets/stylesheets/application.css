@@ -23,10 +23,13 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+       position: relative;
+  min-height: 100%;
 }
 body {
 background-color: #a8abaf;
   margin: 0;
+  margin-bottom: 130px;
 }
 article,
 aside,
@@ -6772,5 +6775,16 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  /* Set the fixed height of the footer here */
+  height: 130px;
+  background-color: #000000;
+  color: #9d9d9d;
 }
 /*# sourceMappingURL=bootstrap.css.map */
