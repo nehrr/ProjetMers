@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+  	title Mers Intérieures
+  	= csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+    
+  body
+    = render 'partials/header'
+    == yield
+    = render 'partials/footer'
+    
+/Ancien code sans slim :
+
+    <!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Mers Intérieures</title>
+		<%= csrf_meta_tags %>
+	
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+	</head>
+
+	<body>		
+		
+		<%= render 'partials/header'%>
+		
+		<%= yield %>
+
+		<%= render 'partials/footer'%>
+
+	</body>
+
+</html>

@@ -22,7 +22,7 @@
  */
 
 if (typeof jQuery === 'undefined') {
-  throw new Error('Bootstrap\'s JavaScript requires jQuery')
+  throw new Error('Bootstrap\'s JavaScript requires jQuery');
 }
 
 +function ($) {
@@ -49,7 +49,7 @@ if (typeof jQuery === 'undefined') {
   // ============================================================
 
   function transitionEnd() {
-    var el = document.createElement('bootstrap')
+    var el = document.createElement('bootstrap');
 
     var transEndEventNames = {
       WebkitTransition : 'webkitTransitionEnd',

@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Mers Intérieures</title>
-		<%= csrf_meta_tags %>
-
-		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-		<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-
-		<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -64,46 +55,3 @@
 						</li>
 					</ul>
 		</nav>
-	</head>
-
-	<body>
-		<%= yield %>
-
-		<footer class="footer">
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-8">
-						<ul>
-							Nos clients
-						</ul>
-						<li>
-							Client 1
-						</li>
-						<li>
-							Client 2
-						</li>
-						<li>
-							Client 3
-						</li>
-					</div>
-					<div class="col-md-2">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.4228537641866!2d1.8941739156727473!3d48.81199287928304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e69b3d043ee0ab%3A0xa1c36b95e74fa8ad!2s81+Grande+Rue%2C+78640+Neauphle-le-Ch%C3%A2teau!5e0!3m2!1sfr!2sfr!4v1478097156840" width="200" height="110" frameborder="0" style="border:0"></iframe>
-					</div>
-					<div class="col-md-2">
-						<p>
-							Contact
-						</p>
-						<p>
-							81 Grande Rue
-							<br>
-							78640 Neauphle Le Chateau
-							<br>
-							France
-						</p>
-					</div>
-				</div>
-		</footer>
-
-	</body>
-
-</html>
