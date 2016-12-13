@@ -27,7 +27,7 @@ html {
   min-height: 100%;
 }
 body {
-background-color: #a8abaf;
+background: url('bg1.png');
   margin: 0;
   margin-bottom: 130px;
 }
@@ -281,9 +281,11 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('glyphicons-halflings-regular.eot');
+  src: url('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+  url('glyphicons-halflings-regular.woff') format('woff'),
+  url('glyphicons-halflings-regular.ttf') format('truetype'),
+  url('glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -1105,7 +1107,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #a8abaf;
+  background: url("bg.jpg") repeat;
 }
 input,
 button,
@@ -4611,7 +4613,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
   color: #ccc;
 }
 .navbar-inverse {
-  background-color: #222;
+  background-color: #222; 
   border-color: #080808;
 }
 .navbar-inverse .navbar-brand {
@@ -6786,5 +6788,6 @@ button.close {
   height: 130px;
   background-color: #000000;
   color: #9d9d9d;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
